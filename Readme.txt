@@ -1,5 +1,6 @@
 Sauce Demo
 My framework is Cucumber (BDD).\
+
 •  I built my framework using Java Programming Language.\
 •  I used maven as a build automation tool for my java project.\
 •  I used Cucumber-Junit and Cucumber runner to orchestrate tests.\
