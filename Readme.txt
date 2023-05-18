@@ -19,7 +19,7 @@ My framework is Cucumber (BDD).\
 •  I use hook class as pre-and post-test implementations.\
 •  Step Definitions folder is the place where my actual test scripts are.\
 
-• I added a screenshot interface; when the scenario fails, it takes a screenshot.
+• I added a screenshot interface; when the scenario fails,it takes a screenshot.
 • For assertions/verifications, to compare expected and actual results I utilize Junit assertions.
 • I also use tags for tests that I want to run in bulk.
 • My framework is easy to maintain since I have elements stored in one centralized place. If any changes happen on the application about the elements, I know where to go and how to fix it to run test scripts correctly.
