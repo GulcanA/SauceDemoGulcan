@@ -3,8 +3,12 @@ package com.sauce.pages;
 import com.sauce.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
 
 public class ProductPage extends BasePage{
     @FindBy(xpath = "//span[@class='title']")
@@ -17,6 +21,7 @@ public class ProductPage extends BasePage{
     @FindBy(xpath = "//a[@class='shopping_cart_link']")
     public WebElement basket;
 
+
     public void sortProducts(String sortType){
         Select select = new Select(dropdownSort);
         select.selectByVisibleText(sortType);
@@ -25,7 +30,11 @@ public class ProductPage extends BasePage{
     public void addProduct(String price){
         Driver.get().findElement(By.xpath("//*[text()='"+price+"']/../button")).click();
     }
-}
+    
+
+    }
+
+
 
 
 

@@ -1,6 +1,6 @@
 Feature: Login and E2E Test
 
-  @wip
+
   Scenario: E2E Test
     Given The user is on the login page
     When the user enters "standard_user" username and "secret_sauce"
